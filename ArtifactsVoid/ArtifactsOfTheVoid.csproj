@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<LangVersion>preview</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+        <RestoreAdditionalProjectSources>
+			https://api.nuget.org/v3/index.json;
+			https://nuget.bepinex.dev/v3/index.json
+		</RestoreAdditionalProjectSources>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Textures\infestorDisabled.png" />
+	  <None Remove="Textures\infestorEnabled.png" />
+	  <None Remove="Textures\invasionDisabled.png" />
+	  <None Remove="Textures\invasionEnabled.png" />
+	  <None Remove="Textures\nullifyDisabled.png" />
+	  <None Remove="Textures\nullifyEnabled.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Textures\infestorDisabled.png" />
+	  <EmbeddedResource Include="Textures\infestorEnabled.png" />
+	  <EmbeddedResource Include="Textures\invasionDisabled.png" />
+	  <EmbeddedResource Include="Textures\invasionEnabled.png" />
+	  <EmbeddedResource Include="Textures\nullifyDisabled.png" />
+	  <EmbeddedResource Include="Textures\nullifyEnabled.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BepInEx.Analyzers" Version="1.0.*">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+
+		<PackageReference Include="BepInEx.Core" Version="5.4.21" />
+
+		<PackageReference Include="R2API.Items" Version="1.0.*" />
+		<PackageReference Include="R2API.Language" Version="1.1.0" />
+
+		<PackageReference Include="UnityEngine.Modules" Version="2021.3.33" IncludeAssets="compile" />
+		<PackageReference Include="RiskOfRain2.GameLibs" Version="*-*" />
+		<PackageReference Include="MMHOOK.RoR2" Version="*" NoWarn="NU1701" />
+        <PackageReference Include="RoR2BepInExPack" Version="*" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Reference Include="R2API.Prefab">
+	    <HintPath>..\..\..\r2modmanLocal\RiskOfRain2\profiles\test\BepInEx\plugins\RiskofThunder-R2API_Prefab\R2API.Prefab\R2API.Prefab.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
