@@ -4,7 +4,9 @@ A simple Risk Of Rain 2 mod that adds 3 new artifacts themed around the Void.
 All of these are relatively simple but overall fun in their own very weird and often evil ways.
 
 ### Infestation
+![ArtifactsOfTheVoidArtifacts](https://i.imgur.com/ySSBsxO.gif[/img])
 - Spawns Void Infestors from nearly every interactable.
+
 
 ### Invasion
 - Void Seeds are significantly more common and more can spawn.

@@ -1,18 +1,20 @@
-
-# Artifacts Of The Void
-
 ![ArtifactsOfTheVoidArtifacts](https://i.imgur.com/Rwg4Lrv.png[/img])
 
-Adds 3 new artifacts themed around the Void. How cruel they are varies. 
-
+A simple Risk Of Rain 2 mod that adds 3 new artifacts themed around the Void.
+All of these are relatively simple but overall fun in their own very weird and often evil ways.
+-
 ### Infestation
-- Spawns Void Infestors from nearly every interactable.
+![ArtifactsOfTheVoidArtifacts](https://i.imgur.com/2XdL3he.gif)
+- Spawns Void Infestors from nearly every interactable. Different interactables spawn differing amounts of Infestors at different rates. Interactables that spawn items spawn more Infestors based on the items tier.
+---
 
 ### Invasion
+![ArtifactsOfTheVoidArtifacts](https://i.imgur.com/fg9PwcO.gif)
 - Void Seeds are significantly more common and more can spawn.
-
+---
 ### Nullification
-- Spawns Void Implosions from every dead non-Void enemy.
+![ArtifactsOfTheVoidArtifacts](https://i.imgur.com/OvtJIEh.gif)
+- Spawns random Void Implosions from every dead non-Void enemy, including a black hole attack from a boss.
 
 
 ---
